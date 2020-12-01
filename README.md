@@ -1,8 +1,8 @@
-# todolist
+# Todolist
 
 ## 效果：
 
-![](Image 1.png)
+![](https://github.com/sweeney174/todolist/Image 1.png)
 
 ## Project setup
 ```
