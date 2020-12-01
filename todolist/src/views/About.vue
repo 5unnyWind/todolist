@@ -1,5 +1,25 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is a test page</h1>
+    <el-time-picker
+    is-range
+    v-model="value"
+    range-separator="-"
+    start-placeholder="开始时间"
+    end-placeholder="结束时间"
+    placeholder="选择时间范围">
+  </el-time-picker>
+
+  <el-button type="success">默认按钮</el-button>
   </div>
 </template>
+<script>
+  export default {
+    data() {
+      return {
+        value: [new Date(2016, 9, 10, 8, 40), new Date(2016, 9, 10, 9, 40)],
+      
+      };
+    }
+  }
+</script>
