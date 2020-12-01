@@ -2,7 +2,7 @@
 
 ## 效果：
 
-![](https://github.com/sweeney174/todolist/Image 1.png)
+![image](https://github.com/sweeney174/todolist/Image1.png)
 
 ## Project setup
 ```
